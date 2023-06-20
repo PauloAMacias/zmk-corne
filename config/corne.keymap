@@ -25,7 +25,7 @@
             bindings = <
   &kp TAB  &kp Q  &kp W     &kp E  &kp R              &kp T        &kp Y  &kp U      &kp I    &kp O      &kp P   &kp BSPC
 &kp LCTRL  &kp A  &kp S     &kp D  &kp F              &kp G        &kp H  &kp J      &kp K    &kp L   &kp SEMI    &kp SQT
-&kp LSHFT  &kp Z  &kp X     &kp C  &kp V              &kp B        &kp N  &kp M  &kp COMMA  &kp DOT  &kp MINUS  &kp RSHFT
+ &kp LALT  &kp Z  &kp X     &kp C  &kp V              &kp B        &kp N  &kp M  &kp COMMA  &kp DOT  &kp MINUS  &kp RSHFT
                          &kp LGUI  &mo 1  &mt LSHIFT RETURN    &kp SPACE  &mo 2   &kp RALT
             >;
         };
@@ -53,10 +53,10 @@
 
         raise_layer {
             bindings = <
-  &kp ESC   &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT     &kp AMPS  &kp SLASH  &kp LPAR  &kp RPAR  &kp EQUAL    &kp DEL
-&kp LCTRL  &kp QMARK   &none     &none     &none      &none    &kp MINUS  &kp ASTRK  &kp LBKT  &kp RBKT   &kp BSLH  &kp GRAVE
-   &kp LT     &kp GT   &none     &none     &none      &none    &kp UNDER   &kp PLUS  &kp LBRC  &kp RBRC   &kp PIPE  &kp TILDE
-                              &kp LGUI    &trans     &trans       &trans     &trans  &kp RALT
+  &kp ESC   &kp EXCL  &kp AT  &kp HASH  &kp DLLR   &kp PRCNT     &kp AMPS  &kp SLASH  &kp LPAR  &kp RPAR  &kp EQUAL    &kp DEL
+&kp LCTRL  &kp QMARK   &none     &none     &none       &none    &kp MINUS  &kp ASTRK  &kp LBKT  &kp RBKT   &kp BSLH  &kp GRAVE
+   &kp LT     &kp GT   &none     &none     &none       &none    &kp UNDER   &kp PLUS  &kp LBRC  &kp RBRC   &kp PIPE  &kp TILDE
+                              &kp LGUI    &trans  &kp LSHIFT       &trans     &trans  &kp RALT
             >;
         };
 

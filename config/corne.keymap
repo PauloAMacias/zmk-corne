@@ -4,6 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
+#ifdef CONFIG_ZMK_RGB_UNDERGLOW
 #include <../boards/shields/corne/boards/nice_nano.overlay>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>

@@ -78,7 +78,7 @@
             bindings = <
 &kp ESCAPE  &kp V       &kp Q  &kp W      &kp E      &kp R        &trans  &trans  &trans  &trans  &trans  &trans
 &kp TAB     &kp B       &kp A  &kp S      &kp D      &kp F        &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &kp LSHIFT  &kp Z  &kp X      &kp C      &kp T        &trans  &trans  &trans  &trans  &trans  &trans
+&tog 4      &kp LSHIFT  &kp Z  &kp X      &kp C      &kp T        &trans  &trans  &trans  &trans  &trans  &trans
                                &kp ENTER  &kp LCTRL  &kp SPACE    &tog 4  &trans  &trans
             >;
         };
